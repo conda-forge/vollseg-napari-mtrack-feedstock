@@ -1,5 +1,5 @@
 {% set name = "vollseg-napari-mtrack" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-napari-mtrack-{{ version }}.tar.gz
-  sha256: 8e53f66c981e9397e9fdc267e41099503a4bdf73b6312fd230144519f0fc666e
+  sha256: fc1c85fdc49302b56846e9181daed2701ccdc8ff37684b9897d25fce6444f361
 
 build:
   noarch: python
